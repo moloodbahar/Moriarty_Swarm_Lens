@@ -1,0 +1,35 @@
+{
+  "base_commit": "66a36c63f02c288224be5ef20ed48ca4087bef0d",
+  "verification": "offline tests and dry runs only",
+  "tests_passed": 29,
+  "test_command": "python -m unittest discover -s tests -v",
+  "new_live_model_calls": 0,
+  "dry_runs": [
+    {
+      "suite": "real",
+      "planned_calls": 36,
+      "responses_saved": 0,
+      "arms": [
+        "fresh_prefix",
+        "persistent_history",
+        "evidence_ledger",
+        "evidence_recap"
+      ]
+    },
+    {
+      "suite": "controls",
+      "planned_calls": 48,
+      "responses_saved": 0,
+      "arms": [
+        "fresh_prefix",
+        "persistent_history"
+      ]
+    }
+  ],
+  "sha256": {
+    "moriarty.py": "6eadc0f304d2e69af1edd87bcaec51098738be49e008b029af9b169df631d70e",
+    "followup.py": "eb824aa66910aa1d1310b9287b395c4ab67051834384897aab650f243ed631b4",
+    "tests/test_followup.py": "6c33c773dcd3eb34a4b29cb334787bdf7bb62af9f7bf680c294bdd498b06420f",
+    "data/ai_village_case_v2.json": "8c94d6287ce12cb54a539c47bcf96e6ba5c1e0ab5faa0239ef2855329015f73f"
+  }
+}

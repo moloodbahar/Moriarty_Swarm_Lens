@@ -49,3 +49,4 @@ class SpanTests(unittest.TestCase):
         self.assertNotIn('e6_1',evidence['span_id']['enum'])
 
 if __name__=='__main__':unittest.main()
+

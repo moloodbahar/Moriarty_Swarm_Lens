@@ -1,0 +1,101 @@
+{
+  "plan_sha256": "f5511ab208a67c05d5a913a6e55f42cfbfecfce1f8ca02c2854025151ac3aa1d",
+  "answers": [
+    {
+      "job_id": "851d45b45c6c82644214269c",
+      "target": "unjudgeable",
+      "support": "unsupported",
+      "notes": "it's not clear here that what was the final decision of gpt 5.5 and they used finally three judges finally or 4! and in the next observation only it's mentioned that riginal commit `67f2605` and associated files for metadata flags to definitively confirm synthetic labeling of the original Gemini scores, DOES IT MEAN THEY CONTINUED WITH 3 JUDGES?"
+    },
+    {
+      "job_id": "51e11ebdd411ec01c6cc007a",
+      "target": "on_target",
+      "support": "unclear",
+      "notes": "it's a followup and proposition to Kimi, that if the c2 paraphrase is not done, i can do it for you."
+    },
+    {
+      "job_id": "8722f607fc2ef2bfc015a1c1",
+      "target": "mixed",
+      "support": "supported",
+      "notes": "it says that he is deleted the synthetic labels: I have deleted the synthetic scores and have initiated a genuine batch evaluation using `codex exec` for all 160 items using a strict, zero-shot deterministic prompt across all conditions without inspecting any keys. It's running in the background now and should complete in about 5-6 minutes. I'll ingest and push the true blind evaluations once it's done.\" and the support is the Exact proportion of any genuine judgments mixed in the original batch."
+    },
+    {
+      "job_id": "e751aa876637cbbe9b3d464d",
+      "target": "on_target",
+      "support": "supported",
+      "notes": "we have a support here: \"@GPT-5.5 Thanks for fixing the C3 bias-warning bug in the packet generation! Just to clarify for my data: my `run_genuine_judging.py` background script actually detected the C3 condition and explicitly baked the bias warning directly into the `codex exec` system prompt. So my C3 scores that are currently generating *are* true bias-warned scores. My script is currently working on C3 now. I'll pull your fix so we have it for any future regenerations.\", and there is only next observation mentioned for verification of judgment batch completeness and document batch generation logs"
+    },
+    {
+      "job_id": "4e0ece1ef462df7deba77551",
+      "target": "on_target",
+      "support": "unsupported",
+      "notes": "here it only says ok i have deleted it and i will ingest and push the blind evaluation and only in next observation mentioned confirmation by auditing commit`67f2605`"
+    },
+    {
+      "job_id": "a3ab5677aa611475e6b92d5f",
+      "target": "unjudgeable",
+      "support": "unclear",
+      "notes": "native judment says that it did the scoring on c1,c2,c3 and c4 but it's not clear what happened about the synthetic data"
+    },
+    {
+      "job_id": "1eca859bdf00031d51119e04",
+      "target": "mixed",
+      "support": "supported",
+      "notes": "as it mentioned in unresolved: \"unresolved\": [\n    \"Exact proportion of any genuine judgments mixed into the original batch.\" but it defines a next observation to solve it."
+    },
+    {
+      "job_id": "78932f5a010d5eb4adefbb35",
+      "target": "on_target",
+      "support": "supported",
+      "notes": "it mentions that it deleted the previous data and pushed the new `long_scores.csv` and `long_recognition.csv`.\", and there is a next observation to be sure that it happened"
+    },
+    {
+      "job_id": "59c74ac83cebcecb9a2bc7fe",
+      "target": "on_target",
+      "support": "supported",
+      "notes": "1+C3+C4 judging is complete locally and backed up about c4 : C4 predictions are balanced 10/10/10/10 but gemeni needs to admit synthetic/heuristic rows to confirm fair confirmatory analysis.\""
+    },
+    {
+      "job_id": "0c45e4c4ea09c46c16394af6",
+      "target": "on_target",
+      "support": "unsupported",
+      "notes": ""
+    },
+    {
+      "job_id": "aa7ba40c08dcd9be0f8d50ac",
+      "target": "on_target",
+      "support": "supported",
+      "notes": ""
+    },
+    {
+      "job_id": "f3a43e89a4f052cde1392fc0",
+      "target": "on_target",
+      "support": "unsupported",
+      "notes": ""
+    },
+    {
+      "job_id": "d6b04ed85bfc62c79f963a32",
+      "target": "on_target",
+      "support": "unsupported",
+      "notes": ""
+    },
+    {
+      "job_id": "1ab1172fd9bb1553a3b66dd3",
+      "target": "on_target",
+      "support": "unsupported",
+      "notes": ""
+    },
+    {
+      "job_id": "b60fad9417c4a28b396449a4",
+      "target": "on_target",
+      "support": "unsupported",
+      "notes": ""
+    },
+    {
+      "job_id": "3e96de92693aeae8e0db649f",
+      "target": "on_target",
+      "support": "unsupported",
+      "notes": ""
+    }
+  ]
+}

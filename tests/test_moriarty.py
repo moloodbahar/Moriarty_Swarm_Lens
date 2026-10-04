@@ -114,3 +114,4 @@ class Tests(unittest.TestCase):
             self.assertNotIn('<script>alert(1)</script>',text);self.assertIn('&lt;script&gt;',text)
 
 if __name__=='__main__':unittest.main()
+
