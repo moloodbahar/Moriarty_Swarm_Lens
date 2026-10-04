@@ -8,4 +8,4 @@
 6. “An external file audit confirms identical scores, but not the execution method. We need the target's actual scoring logs to settle that.”
 7. “Our contribution is a reusable, auditable test bench and concrete failure cases. We have not established that the ledger is better. The next experiment needs independent episodes and adjudicated evidence-support labels.”
 
-The earthquake story on the page is a fictional explanation. The charts are the measured label-case results. Do not introduce the story as another successful experiment.
+The earthquake story on the page is a fictional explanation. The charts are the measured label-case results.
