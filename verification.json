@@ -1,0 +1,24 @@
+{
+  "offline_tests_passed": 17,
+  "uploaded_response_revalidation": {
+    "b4fdbd8ed80e8a08d735d762.json": {
+      "arm": "evidence_ledger",
+      "errors": [
+        "Quote is empty or not an exact source substring",
+        "Quote is empty or not an exact source substring",
+        "Quote is empty or not an exact source substring",
+        "Quote is empty or not an exact source substring"
+      ],
+      "top_native_probability": 0.65
+    },
+    "e3e6a845573fdce4a835baeb.json": {
+      "arm": "persistent_history",
+      "errors": [],
+      "top_native_probability": 0.6
+    }
+  },
+  "new_plan_calls": 18,
+  "new_api_calls": 0,
+  "new_api_path": "not executed in this workspace",
+  "case_id": "ai_village_original_score_provenance_v2"
+}

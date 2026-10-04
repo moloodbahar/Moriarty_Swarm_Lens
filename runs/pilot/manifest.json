@@ -1,0 +1,8 @@
+{
+  "status": "stopped",
+  "plan_sha256": "a8d427deabf1fc9c2f8a109565abb35bbe9644c687f9e6e6adea7f07adab7289",
+  "case_kind": "real_observational",
+  "case_id": "ai_village_original_score_provenance_v1",
+  "model_experiment_executed": true,
+  "reason": "Invalid model output saved; trajectory stopped to avoid contaminating history."
+}

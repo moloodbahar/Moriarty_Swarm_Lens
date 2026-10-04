@@ -1,0 +1,293 @@
+{
+  "status": "complete",
+  "case_id": "ai_village_original_score_provenance_v2",
+  "kind": "real_observational",
+  "model": "gpt-4.1-mini",
+  "valid_outputs": 18,
+  "missing_outputs": [],
+  "invalid_outputs": [],
+  "usage": {
+    "input_tokens": 104399,
+    "output_tokens": 5743,
+    "total_tokens": 110142
+  },
+  "threshold": 0.8,
+  "trajectories": [
+    {
+      "repeat": 0,
+      "arm": "evidence_ledger",
+      "complete": true,
+      "checkpoint_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6"
+      ],
+      "steps": [
+        {
+          "probabilities": {
+            "native_judgment": 0.7,
+            "synthetic_script": 0.1,
+            "other_process": 0.1,
+            "delegated_judgment": 0.1
+          },
+          "entropy_normalized": 0.6783898247235197,
+          "top_hypothesis": "native_judgment",
+          "top_probability": 0.7,
+          "JS_from_previous": null
+        },
+        {
+          "probabilities": {
+            "native_judgment": 0.85,
+            "synthetic_script": 0.05,
+            "other_process": 0.05,
+            "delegated_judgment": 0.05
+          },
+          "entropy_normalized": 0.423792339912287,
+          "top_hypothesis": "native_judgment",
+          "top_probability": 0.85,
+          "JS_from_previous": 0.0163771458068565
+        },
+        {
+          "probabilities": {
+            "native_judgment": 0.8,
+            "synthetic_script": 0.05,
+            "other_process": 0.1,
+            "delegated_judgment": 0.05
+          },
+          "entropy_normalized": 0.5109640474436812,
+          "top_hypothesis": "native_judgment",
+          "top_probability": 0.8,
+          "JS_from_previous": 0.004626321791797993
+        },
+        {
+          "probabilities": {
+            "native_judgment": 0.1,
+            "synthetic_script": 0.8,
+            "other_process": 0.05,
+            "delegated_judgment": 0.05
+          },
+          "entropy_normalized": 0.5109640474436812,
+          "top_hypothesis": "synthetic_script",
+          "top_probability": 0.8,
+          "JS_from_previous": 0.3586966334524935
+        },
+        {
+          "probabilities": {
+            "native_judgment": 0.05,
+            "synthetic_script": 0.9,
+            "other_process": 0.03,
+            "delegated_judgment": 0.02
+          },
+          "entropy_normalized": 0.30877156165600733,
+          "top_hypothesis": "synthetic_script",
+          "top_probability": 0.9,
+          "JS_from_previous": 0.01030298683648048
+        },
+        {
+          "probabilities": {
+            "native_judgment": 0.05,
+            "synthetic_script": 0.9,
+            "other_process": 0.03,
+            "delegated_judgment": 0.02
+          },
+          "entropy_normalized": 0.30877156165600733,
+          "top_hypothesis": "synthetic_script",
+          "top_probability": 0.9,
+          "JS_from_previous": 0.0
+        }
+      ],
+      "gold_available": false,
+      "dominant_hypothesis_changes": 1,
+      "recovery_lag": null,
+      "longest_committed_wrong_run": null
+    },
+    {
+      "repeat": 0,
+      "arm": "fresh_prefix",
+      "complete": true,
+      "checkpoint_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6"
+      ],
+      "steps": [
+        {
+          "probabilities": {
+            "native_judgment": 0.7,
+            "synthetic_script": 0.1,
+            "other_process": 0.1,
+            "delegated_judgment": 0.1
+          },
+          "entropy_normalized": 0.6783898247235197,
+          "top_hypothesis": "native_judgment",
+          "top_probability": 0.7,
+          "JS_from_previous": null
+        },
+        {
+          "probabilities": {
+            "native_judgment": 0.7,
+            "synthetic_script": 0.1,
+            "other_process": 0.1,
+            "delegated_judgment": 0.1
+          },
+          "entropy_normalized": 0.6783898247235197,
+          "top_hypothesis": "native_judgment",
+          "top_probability": 0.7,
+          "JS_from_previous": 0.0
+        },
+        {
+          "probabilities": {
+            "native_judgment": 0.7,
+            "synthetic_script": 0.15,
+            "other_process": 0.1,
+            "delegated_judgment": 0.05
+          },
+          "entropy_normalized": 0.659517637169433,
+          "top_hypothesis": "native_judgment",
+          "top_probability": 0.7,
+          "JS_from_previous": 0.006764415113721039
+        },
+        {
+          "probabilities": {
+            "native_judgment": 0.05,
+            "synthetic_script": 0.85,
+            "other_process": 0.05,
+            "delegated_judgment": 0.05
+          },
+          "entropy_normalized": 0.423792339912287,
+          "top_hypothesis": "synthetic_script",
+          "top_probability": 0.85,
+          "JS_from_previous": 0.30754795495885334
+        },
+        {
+          "probabilities": {
+            "native_judgment": 0.05,
+            "synthetic_script": 0.85,
+            "other_process": 0.05,
+            "delegated_judgment": 0.05
+          },
+          "entropy_normalized": 0.423792339912287,
+          "top_hypothesis": "synthetic_script",
+          "top_probability": 0.85,
+          "JS_from_previous": 0.0
+        },
+        {
+          "probabilities": {
+            "native_judgment": 0.85,
+            "synthetic_script": 0.1,
+            "other_process": 0.03,
+            "delegated_judgment": 0.02
+          },
+          "entropy_normalized": 0.3980661047736537,
+          "top_hypothesis": "native_judgment",
+          "top_probability": 0.85,
+          "JS_from_previous": 0.38935811075158966
+        }
+      ],
+      "gold_available": false,
+      "dominant_hypothesis_changes": 2,
+      "recovery_lag": null,
+      "longest_committed_wrong_run": null
+    },
+    {
+      "repeat": 0,
+      "arm": "persistent_history",
+      "complete": true,
+      "checkpoint_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6"
+      ],
+      "steps": [
+        {
+          "probabilities": {
+            "native_judgment": 0.7,
+            "synthetic_script": 0.1,
+            "other_process": 0.15,
+            "delegated_judgment": 0.05
+          },
+          "entropy_normalized": 0.659517637169433,
+          "top_hypothesis": "native_judgment",
+          "top_probability": 0.7,
+          "JS_from_previous": null
+        },
+        {
+          "probabilities": {
+            "native_judgment": 0.75,
+            "synthetic_script": 0.05,
+            "other_process": 0.15,
+            "delegated_judgment": 0.05
+          },
+          "entropy_normalized": 0.5770078865364,
+          "top_hypothesis": "native_judgment",
+          "top_probability": 0.75,
+          "JS_from_previous": 0.004678595864320902
+        },
+        {
+          "probabilities": {
+            "native_judgment": 0.8,
+            "synthetic_script": 0.05,
+            "other_process": 0.1,
+            "delegated_judgment": 0.05
+          },
+          "entropy_normalized": 0.5109640474436812,
+          "top_hypothesis": "native_judgment",
+          "top_probability": 0.8,
+          "JS_from_previous": 0.0029202349610466076
+        },
+        {
+          "probabilities": {
+            "native_judgment": 0.1,
+            "synthetic_script": 0.8,
+            "other_process": 0.05,
+            "delegated_judgment": 0.05
+          },
+          "entropy_normalized": 0.5109640474436812,
+          "top_hypothesis": "synthetic_script",
+          "top_probability": 0.8,
+          "JS_from_previous": 0.3586966334524935
+        },
+        {
+          "probabilities": {
+            "native_judgment": 0.1,
+            "synthetic_script": 0.85,
+            "other_process": 0.025,
+            "delegated_judgment": 0.025
+          },
+          "entropy_normalized": 0.39879233991228696,
+          "top_hypothesis": "synthetic_script",
+          "top_probability": 0.85,
+          "JS_from_previous": 0.004626321791797993
+        },
+        {
+          "probabilities": {
+            "native_judgment": 0.05,
+            "synthetic_script": 0.9,
+            "other_process": 0.03,
+            "delegated_judgment": 0.02
+          },
+          "entropy_normalized": 0.30877156165600733,
+          "top_hypothesis": "synthetic_script",
+          "top_probability": 0.9,
+          "JS_from_previous": 0.004857636880215483
+        }
+      ],
+      "gold_available": false,
+      "dominant_hypothesis_changes": 1,
+      "recovery_lag": null,
+      "longest_committed_wrong_run": null
+    }
+  ],
+  "semantic_evidence_support": "requires human review; exact quotes do not prove entailment",
+  "empirical_gain": "not established; one inspected case is exploratory, fixtures are not real evidence",
+  "statistical_unit": "independent episode; repeated calls on one episode are not independent cases"
+}

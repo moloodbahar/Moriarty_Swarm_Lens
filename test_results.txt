@@ -1,0 +1,30 @@
+fresh_prefix c1 valid; resume checkpoint saved
+fresh_prefix c1 valid; resume checkpoint saved
+persistent_history c1 valid; resume checkpoint saved
+evidence_ledger c1 valid; resume checkpoint saved
+fresh_prefix c2 valid; resume checkpoint saved
+persistent_history c2 valid; resume checkpoint saved
+evidence_ledger c2 valid; resume checkpoint saved
+6 valid outputs; 0 missing; 0 invalid. Open /tmp/tmp4tlqn0zw/run/dashboard.html
+test_capture_and_recovery_known_fixture (test_moriarty.Tests.test_capture_and_recovery_known_fixture) ... ok
+test_exact_quote_passes_but_semantics_not_automated (test_moriarty.Tests.test_exact_quote_passes_but_semantics_not_automated) ... ok
+test_fabricated_quote_rejected (test_moriarty.Tests.test_fabricated_quote_rejected) ... ok
+test_failure_preserves_earlier_calls_and_resume (test_moriarty.Tests.test_failure_preserves_earlier_calls_and_resume) ... ok
+test_future_and_gold_never_in_prompt (test_moriarty.Tests.test_future_and_gold_never_in_prompt) ... ok
+test_future_evidence_rejected (test_moriarty.Tests.test_future_evidence_rejected) ... ok
+test_html_escapes_transcript_instructions (test_moriarty.Tests.test_html_escapes_transcript_instructions) ... ok
+test_persistent_has_only_prior_judgments (test_moriarty.Tests.test_persistent_has_only_prior_judgments) ... ok
+test_probability_nan_bool_sum_and_keys (test_moriarty.Tests.test_probability_nan_bool_sum_and_keys) ... ok
+test_real_case_no_gold (test_moriarty.Tests.test_real_case_no_gold) ... ok
+test_refusal_incomplete_invalid_json (test_moriarty.Tests.test_refusal_incomplete_invalid_json) ... ok
+test_same_prefix_and_order_all_arms (test_moriarty.Tests.test_same_prefix_and_order_all_arms) ... ok
+test_tampered_case_rejected (test_moriarty.Tests.test_tampered_case_rejected) ... ok
+test_catalog_stability_prefix_safety_and_enum (test_span_citations.SpanTests.test_catalog_stability_prefix_safety_and_enum) ... ok
+test_exact_unicode_offsets_and_long_lines (test_span_citations.SpanTests.test_exact_unicode_offsets_and_long_lines) ... ok
+test_future_unknown_and_free_text_fail (test_span_citations.SpanTests.test_future_unknown_and_free_text_fail) ... ok
+test_reconstruction_and_strict_validation (test_span_citations.SpanTests.test_reconstruction_and_strict_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.083s
+
+OK

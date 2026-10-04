@@ -1,0 +1,7 @@
+{
+  "status": "completed",
+  "plan_sha256": "53a99e0208c4cd9caff5e73c1940577a91df70c35092d3c1b16ce6dbb1f0ef79",
+  "case_kind": "real_observational",
+  "case_id": "ai_village_original_score_provenance_v2",
+  "model_experiment_executed": true
+}
