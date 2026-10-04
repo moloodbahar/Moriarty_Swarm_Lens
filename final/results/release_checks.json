@@ -1,5 +1,5 @@
 {
-  "release": "1.0.0",
+  "release": "1.1.0",
   "python": "3.12",
   "new_runner_tests_passed": 6,
   "mock_full_trajectory_calls": 24,
@@ -11,5 +11,11 @@
   "demo_javascript_syntax": "passed",
   "browser_visual_qa": "not performed; supported managed browser tooling unavailable",
   "historical_prompts_changed": false,
-  "new_runner_difference": "API schema enforces maxItems=6 from first request; historical hashes preserved."
+  "new_runner_difference": "API schema enforces maxItems=6 from first request; historical hashes preserved.",
+  "original_saved_outputs_revalidated": 18,
+  "original_visible_quotes_revalidated": 108,
+  "replay_quote_links_verified": 252,
+  "replay_case_checkpoint_prefixes_verified": 12,
+  "replay_javascript_tests": "passed",
+  "replay_html_container_nesting": "passed"
 }

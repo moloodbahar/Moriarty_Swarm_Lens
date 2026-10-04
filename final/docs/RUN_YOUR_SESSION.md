@@ -103,3 +103,15 @@ py audit_label_swap_v2.py --repo local_data/research-2026-05 --rev 2442b493c0b6e
 ```
 
 It matches packets and scores, checks exact label pairs and score ranges, and reports equality by source judge. Extra correlation diagnostics are descriptive: a change score shares its baseline mathematically, so a negative baseline/change correlation alone is not causal evidence. The full execution procedure remains unaudited.
+
+## Rebuild the source-visible demo
+
+The published demo includes the selected conversations and saved answers. To regenerate those from authorized raw run folders:
+
+```powershell
+py demo/build_replay_data.py --label-run C:\path\to\label_run --original-run ..\runs\v2_span_ids --out demo/replay_data.json
+py demo/render.py
+Start-Process demo/index.html
+```
+
+The first command verifies both original runs before exporting message text and answers. The second embeds the saved replay data for offline viewing. Keep `index.html` and `app.js` together. JavaScript filter/link checks can be run with `node tests/test_replay.js` if Node.js is installed; Python experiment execution does not require Node.

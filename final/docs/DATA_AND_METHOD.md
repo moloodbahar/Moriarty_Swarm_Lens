@@ -58,7 +58,7 @@ Exact quotations are resolved by the code from selected span IDs. Invalid probab
 
 Posting order is an evidence-availability order, not a full timeline of real-world actions. A first-line recap, future plan or claimed completion remains a statement until separately checked. Human-written targets and hypotheses can themselves introduce framing errors. The label-case hypotheses are not perfectly mutually exclusive.
 
-Public output contains numeric trajectories, source IDs and an explanation of the case. Full raw input and API files stay with the authorized investigator. Verification from scratch requires those originals. The public earthquake fixture is an illustration and plumbing example, not evidence of real-swarm performance.
+The updated public replay includes the selected 21-message and 98-message case conversations, saved observer answers, exact quotes and numeric trajectories. It does not include the full 183,485-message export or computer-use logs. Request-level verification from scratch still requires the original saved run files. The public earthquake fixture is an illustration and plumbing example, not evidence of real-swarm performance.
 
 ## Original APIs supplied for discovery
 

@@ -1,11 +1,12 @@
-# Two-minute demo
+# Two-minute demo with actual evidence
 
-1. “We want to know whether an AI investigator can read a changing swarm conversation without mistaking repeated claims for proof.”
-2. “These are four setups of the same model. One starts fresh, one remembers its answers, one also checks alternatives, and one gets reminders of earlier source messages.”
-3. Move the checkpoint slider from c1 to c6. “All setups get the same current message prefix. At the end, they prefer different explanations of how one score file was made.”
-4. Open the full final distribution. “History gives 86% to separate rescoring; recap gives 75% to reuse; fresh and ledger give 80% to shared-context consistency. These are model reports, not proven probabilities.”
-5. Show the verification/review panel. “All 144 citations exist in the allowed transcript. Yet the supplied review marks 23 of 24 answers as overclaiming. Source correctness does not establish inference correctness.”
-6. “An external file audit confirms identical scores, but not the execution method. We need the target's actual scoring logs to settle that.”
-7. “Our contribution is a reusable, auditable test bench and concrete failure cases. We have not established that the ledger is better. The next experiment needs independent episodes and adjudicated evidence-support labels.”
+1. Open **Case 1 · Synthetic scores & replacement**. “The agents are collecting research scores. We want to know how the original batch was made and whether the claimed cleanup is actually established.”
+2. Move to **c4**. Read Gemini’s message 6: it acknowledges a heuristic script and randomized quality scores. The observers switch toward synthetic generation.
+3. Move to **c6**. The conversation defaults to new messages. Read message 10 (claimed deletion), 17 (pending overwrite), 19–20 (peers still describe pending replacement) and 21 (claimed completion). Click the timeline buttons below the replay to jump to these messages.
+4. Select the fresh reader’s answer. “It uses the later replacement to favor native judgment for the ORIGINAL batch. We can inspect its actual rationale and click each evidence quote to see the source.”
+5. “These reports do not verify either successful cleanup or continued contamination. That needs the exact file versions, row history, execution records and final analysis inputs.”
+6. Switch to **Case 2 · Label-swap scores**. “This asks a different question in the same May episode. The later protocol has four setups; the original pilot had three.”
+7. Go to c6. “The setups prefer different generation processes. All citations exist, but one submitted review marks 23 of 24 answers as overclaiming. Equal score files do not identify how the scores were made.”
+8. “Our contribution is an inspectable test bench. We have not established a winning observer or a statistically reliable accuracy gain.”
 
-The earthquake story on the page is a fictional explanation. The charts are the measured label-case results.
+The earthquake example is fictional. The two conversation replays use actual selected source messages and saved observer answers. New/all filters show only records available at the chosen checkpoint.

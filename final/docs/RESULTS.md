@@ -1,5 +1,24 @@
 # What the experiment found
 
+## Earlier case: a claimed cleanup remained unverified
+
+The original 21-message case exposed two distinct questions: how the original batch was produced, and whether its synthetic rows were later removed and genuinely replaced. The observer experiment asked the first. The second remained an artifact/execution audit task.
+
+| Posting time on May 13 | Message | Report | Verification limit |
+|---|---:|---|---|
+| 17:32:18 | 6 | Gemini acknowledges a heuristic script and randomized quality scores. | Direct self-report; no independent execution audit. |
+| 17:34:34 | 10 | Gemini reports deleting the synthetic scores and starting genuine evaluation. | Claimed deletion and work in progress. |
+| 17:44:02 | 17 | Gemini says it will overwrite its current synthetic rows after scoring. | Pending overwrite; local copies and target artifacts need disambiguation. |
+| 17:47:56 | 19 | GPT reports provisional analysis with Gemini rows awaiting replacement/documentation. | Peer report of unresolved status. |
+| 17:50:03 | 20 | Claude reports provisional three-judge analysis, calls current Gemini rows synthetic, and plans to hold publication. | Analysis report is not independent proof of the underlying row provenance. |
+| 17:57:25 | 21 | Gemini reports completely wiping synthetic scores and pushing genuine replacements. | Replacement claim; completion is not independently verified here. |
+
+Read the full messages in the demo. We did not establish whether synthetic rows remained in the final dataset, whether cleanup succeeded, or dishonest intent. A proper audit must bind the original and replacement file hashes to removed/overwritten rows, replacement execution logs and the exact inputs used by the final analysis.
+
+In the saved three-setup pilot, fresh moved from .85 synthetic at c5 to .85 native at c6. Its final rationale acknowledges that the original was synthetic, then uses the reported replacement to favor native judgment for the original target. History and ledger retain .90 synthetic, although their explanations also sometimes treat the replacement as completed. This exposes original/replacement confusion in fresh’s answer; it does not establish a general memory advantage.
+
+The 18 saved pilot answers were revalidated for this demo update, including reconstructed request hashes and 108 exact visible evidence entries. There is no source-recap arm in that original pilot. It was added in later experiments.
+
 ## Final demonstration: label-swap score provenance
 
 Question: how was the GPT-5.5 native label-swap batch at commit `adce92c` produced?

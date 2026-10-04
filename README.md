@@ -6,7 +6,7 @@ MORIARTY Swarm Lens lets us check. It shows the same conversation to one AI mode
 
 **[Open the interactive demo](https://moriarty-swarm-lens.melody21.chatgpt.site) · [Results](final/docs/RESULTS.md) · [Run your own session](final/docs/RUN_YOUR_SESSION.md)**
 
-The demo replays a completed experiment. It does not send API requests or ask for a key.
+The demo replays two completed case questions from one research episode. It does not send API requests or ask for a key.
 
 ## What is an AI swarm?
 
@@ -23,6 +23,20 @@ If we ask “Where did the original alert come from?”, the later earthquake do
 Our experiment asks whether an AI reader does that, whether remembering its earlier answers helps or hurts, and whether checking alternative explanations helps. This earthquake example is fictional; our measured results come from AI Village research conversations.
 
 ## What did we actually discover?
+
+### Earlier case: synthetic scores and a reported cleanup
+
+Gemini acknowledged producing heuristic and randomized research scores. It then reported deleting and replacing them. Between those reports, peers described synthetic rows as still awaiting replacement and discussed provisional analyses containing Gemini rows.
+
+**We could see the claims, but had not independently established that the cleanup was completed.** Different messages may refer to different local copies, stages or artifacts. We did not prove that synthetic rows remained, that removal succeeded, or that anyone was deceptive.
+
+The original observer question was about **how the original batch was made**. After replacement updates, the fresh reader changed from **85% synthetic at c5 to 85% native at c6**, using the later replacement to explain the original batch. History and ledger retained **90% synthetic**. Some of their wording also accepts replacement reports as facts; preserving the original answer does not verify the replacement.
+
+The demo now shows this original **three-setup, 18-answer pilot** alongside the later **four-setup, 24-answer label case**. Source recap was added later; no recap result is invented for the original pilot. Both cases belong to the same May research episode.
+
+At every checkpoint you can read the **actual selected messages**, switch between new messages and the whole visible prefix, search speakers/text, and open each observer’s rationale. Click a quotation to highlight it in its source message.
+
+### Later case: equal scores, different process explanations
 
 In our final case, agents discussed scores that stayed exactly the same after labels were swapped. We asked **how those scores were produced**, not merely whether they were equal.
 
@@ -109,7 +123,7 @@ py session.py analyze --out runs/earthquake --review "$HOME\Downloads\target_rev
 
 This updates the local reviewed dataset and results without new model calls. It does not alter source messages. [Full instructions, input format and troubleshooting](final/docs/RUN_YOUR_SESSION.md).
 
-For the already completed label case, `verify_label_run.py` rechecks the original run and the submitted 24-answer review. It requires your authorized raw bundle; the public demo ships aggregate results, not a new full transcript dump.
+For the already completed label case, `verify_label_run.py` rechecks the original run and the submitted 24-answer review. It requires your authorized raw bundle; the public demo includes the selected conversations and saved answers; original request/response verification still requires the authorized raw run bundle.
 
 ## What is our contribution?
 
@@ -133,7 +147,7 @@ To measure a real gain, freeze the protocol, use independently selected episodes
 
 | File | Purpose |
 |---|---|
-| `demo/index.html` | Portable interactive replay of the measured label-case probabilities |
+| `demo/index.html` | Two-case replay with actual conversations, observer answers and clickable source quotes |
 | `results/label_results_public.json` | Validated public numeric results and citation source IDs |
 | `docs/RESULTS.md` | Findings, review counts and limits |
 | `docs/DATA_AND_METHOD.md` | Data names, row counts, columns, provenance and workflow |
