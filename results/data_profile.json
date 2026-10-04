@@ -1,0 +1,36 @@
+{
+  "case_id": "ai_village_original_score_provenance_v1",
+  "kind": "real_observational",
+  "records": 123,
+  "gold_available": false,
+  "records_sha256": "44c5c9e1f1561b190402bc863780aac14e0169c9cc768e90afe1b024a30cbbde",
+  "checkpoints": [
+    {
+      "id": "c1",
+      "visible_records": 3,
+      "source_characters": 1319
+    },
+    {
+      "id": "c2",
+      "visible_records": 6,
+      "source_characters": 2723
+    },
+    {
+      "id": "c3",
+      "visible_records": 21,
+      "source_characters": 11448
+    },
+    {
+      "id": "c4",
+      "visible_records": 113,
+      "source_characters": 60493
+    },
+    {
+      "id": "c5",
+      "visible_records": 123,
+      "source_characters": 68446
+    }
+  ],
+  "model_calls": 0,
+  "conclusion": "Data preparation only; no observer result."
+}

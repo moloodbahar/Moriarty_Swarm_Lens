@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "tests": 13,
+  "test_type": "offline unit/integration checks with mocked API responses",
+  "real_model_calls": 0,
+  "real_model_experiment_status": "not executed; no API key configured",
+  "source_records": 123,
+  "checkpoints": 5,
+  "full_episode_messages": 458,
+  "real_ground_truth": "not independently audited"
+}
