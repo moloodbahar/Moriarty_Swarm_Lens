@@ -4,7 +4,7 @@
 
 MORIARTY Swarm Lens lets us check. It shows the same conversation to one AI model in four different ways, pauses at six points, and compares its answers. Every evidence quote points back to a message it was allowed to see.
 
-**[Open the interactive demo](https://moriarty-swarm-lens.melody21.chatgpt.site) · [Results](final/docs/RESULTS.md) · [Run your own session](final/docs/RUN_YOUR_SESSION.md)**
+**[Open the interactive demo](https://moriarty-swarm-lens.melody21.chatgpt.site) · [Results](docs/RESULTS.md) · [Run your own session](docs/RUN_YOUR_SESSION.md)**
 
 The demo replays a completed experiment. It does not send API requests or ask for a key.
 
@@ -68,7 +68,7 @@ They are **four setups of the same model**, not four different models and not th
 8. **Audit external artifacts separately.** Compare files and commits where available. Keep this information out of the original observer inputs.
 9. **Report trajectories, disagreements and limitations.** Do not turn confidence or repeated messages into factual accuracy.
 
-[Dataset fields and exact case selection](final/docs/DATA_AND_METHOD.md) · [What we built over the project](final/docs/PROJECT_HISTORY.md)
+[Dataset fields and exact case selection](docs/DATA_AND_METHOD.md) · [What we built over the project](docs/PROJECT_HISTORY.md)
 
 ## Run it
 
@@ -107,7 +107,7 @@ Outputs include `plan.json`, saved requests/responses, `answers.json` for every 
 py session.py analyze --out runs/earthquake --review "$HOME\Downloads\target_review.json"
 ```
 
-This updates the local reviewed dataset and results without new model calls. It does not alter source messages. [Full instructions, input format and troubleshooting](final/docs/RUN_YOUR_SESSION.md).
+This updates the local reviewed dataset and results without new model calls. It does not alter source messages. [Full instructions, input format and troubleshooting](docs/RUN_YOUR_SESSION.md).
 
 For the already completed label case, `verify_label_run.py` rechecks the original run and the submitted 24-answer review. It requires your authorized raw bundle; the public demo ships aggregate results, not a new full transcript dump.
 
@@ -127,7 +127,7 @@ We are not claiming to have invented memory experiments or evidence citations. W
 
 We have not recovered hidden agent beliefs or proven why the swarm acted. We have not measured collective convergence inside the swarm. We have not demonstrated a statistically reliable accuracy gain from any observer setup. The final score-generation process still needs sufficiently complete execution/model-call records.
 
-To measure a real gain, freeze the protocol, use independently selected episodes, obtain evidence-based labels from two reviewers, and compare paired error rates by **episode**. Repeated checkpoints are not independent examples. [Evaluation plan](final/docs/EVALUATION.md).
+To measure a real gain, freeze the protocol, use independently selected episodes, obtain evidence-based labels from two reviewers, and compare paired error rates by **episode**. Repeated checkpoints are not independent examples. [Evaluation plan](docs/EVALUATION.md).
 
 ## Where to look
 

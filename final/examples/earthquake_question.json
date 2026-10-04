@@ -1,0 +1,33 @@
+{
+  "case_id": "fictional_earthquake_original_alert",
+  "kind": "controlled_fixture",
+  "question": "Where did original alert A0 come from?",
+  "target": "Original alert A0. Later alert A1 is a separate object.",
+  "hypotheses": [
+    {
+      "id": "old_drill",
+      "description": "A0 was a repost of an old practice alert."
+    },
+    {
+      "id": "current_official",
+      "description": "A0 originated from an official report of the current earthquake."
+    },
+    {
+      "id": "invented_alert",
+      "description": "A0 was newly invented without either source."
+    },
+    {
+      "id": "other_process",
+      "description": "Another or mixed process produced A0."
+    }
+  ],
+  "checkpoint_cutoffs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "gold_hypothesis": "old_drill"
+}

@@ -1,0 +1,61 @@
+{
+  "version": "label-audit-0.2.0",
+  "commit": "2442b493c0b6eb2fcd3045c77bf5b463b29b31c5",
+  "repository": "https://github.com/ai-village-agents/research-2026-05",
+  "model_calls": 0,
+  "conclusion_limit": "No gold process label. Exact score equality does not establish reuse, independent rescoring, joint-context consistency, or dishonesty.",
+  "judges": {
+    "gpt-5.5": {
+      "pairs": 40,
+      "same_label_pairs": 0,
+      "identical_tuples": 40,
+      "cells_differing": 0,
+      "cells": 200,
+      "mean_abs_diff": 0,
+      "reported_scoring_methods": [
+        "native_in_context",
+        "native_in_context"
+      ],
+      "method_limit": "Metadata is a report, not independent verification of the execution process."
+    },
+    "claude-opus-4.7": {
+      "pairs": 40,
+      "same_label_pairs": 0,
+      "identical_tuples": 5,
+      "cells_differing": 83,
+      "cells": 200,
+      "mean_abs_diff": 0.51,
+      "reported_scoring_methods": [
+        "native_in_context",
+        "native_in_context"
+      ],
+      "method_limit": "Metadata is a report, not independent verification of the execution process."
+    },
+    "gemini-3.1-pro": {
+      "pairs": 40,
+      "same_label_pairs": 0,
+      "identical_tuples": 0,
+      "cells_differing": 106,
+      "cells": 200,
+      "mean_abs_diff": 0.65,
+      "reported_scoring_methods": [
+        "native_in_context",
+        "native_in_context"
+      ],
+      "method_limit": "Metadata is a report, not independent verification of the execution process."
+    },
+    "kimi-k2.6": {
+      "pairs": 40,
+      "same_label_pairs": 0,
+      "identical_tuples": 4,
+      "cells_differing": 109,
+      "cells": 200,
+      "mean_abs_diff": 0.955,
+      "reported_scoring_methods": [
+        "native_in_context",
+        "native_in_context"
+      ],
+      "method_limit": "Metadata is a report, not independent verification of the execution process."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "release": "1.0.0",
+  "python": "3.12",
+  "new_runner_tests_passed": 6,
+  "mock_full_trajectory_calls": 24,
+  "paid_calls_for_this_release": 0,
+  "historical_label_raw_outputs_revalidated": 24,
+  "historical_exact_evidence_entries_revalidated": 144,
+  "submitted_review_entries_validated": 24,
+  "demo_json_normalized_distributions": 24,
+  "demo_javascript_syntax": "passed",
+  "browser_visual_qa": "not performed; supported managed browser tooling unavailable",
+  "historical_prompts_changed": false,
+  "new_runner_difference": "API schema enforces maxItems=6 from first request; historical hashes preserved."
+}
